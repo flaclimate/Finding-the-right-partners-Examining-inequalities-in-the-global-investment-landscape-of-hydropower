@@ -1,9 +1,7 @@
 # HydropowerFinance
 This is the code for the paper: "Finding the right partners? Examining inequalities in the global investment landscape of hydropower" published in Global Environmental Change as Larosa, F. Rickman, J., Ameli N. (2022). Finding the right partners? Examining inequalities in the global investment landscape of hydropower. Global Environmental Change, 7, 102518, https://doi.org/10.1016/j.gloenvcha.2022.102518 
 
-#Authors: Francesca Larosa, University College London (UCL) 
-          Jamie Rickman, University College London, London, United Kingdom 
-          Nadia Ameli, University College London, London, United Kingdom
+#Authors: Francesca Larosa, Jamie Rickman, Nadia Ameli
 
 #Paper's corresponding author: Francesca Larosa (f.larosa@ucl.ac.uk) 
 #Author of the code: Francesca Larosa
