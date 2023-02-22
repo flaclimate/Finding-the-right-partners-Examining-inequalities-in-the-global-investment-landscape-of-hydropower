@@ -30,12 +30,6 @@ edg_linkcomm <- get.edgelist(graph_gc, names=TRUE)
 lc <- getLinkCommunities(edg_linkcomm, hcmethod = "single", directed = TRUE)
 cc <- getCommunityCentrality(lc, type = "commweight")
 sort(cc, decreasing = T)[1:10]
-## CHE COSA HO FATTO? PRENDO lc$nodeclusters E QUESTI SONO I MIEI NODI. 
-# POI PRENDO lc$edges  E QUESTI SONO I MIEI LINK. LI ESPORTO IN GEPHI. DA LI FACCIO IL DOWNLOAD DEI NODI
-# CALCOLO LE PARTNERSHIPS E UNISCO CON LEFT_JOIN SIA IL CC CHE IL RANGE_DIVER ALLA MIA TABELLA
-# NODI ESPORTATA DA GEPHI. OTTENGO 642 NODI CON 10 VARIABILI.
-# POI graphc_linkcomm <- graph_from_data_frame(d = edges_lc, vertices = vertgc_linkcomm, directed = TRUE) 
-# POI write.graph(graphc_linkcomm, file = "graphgc_linkcomm.gml", format = "gml")
 
 plot(lc, type = "graph", vsize = 0.05, vshape = "circle", shownodesin = 0, node.pies = TRUE,
      clusterids = 1:4)
